@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "dimensionalores:end_diamond"
+  },
+  "result": "minecraft:diamond",
+  "experience": 1.0,
+  "cookingtime": 200
+}

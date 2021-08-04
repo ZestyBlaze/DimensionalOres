@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "dimensionalores",
+  "version": "1.0.0",
+
+  "name": "DimensionalOres",
+  "description": "A small simple mod that adds the vanilla ores to the Nether and the End! (Maybe some modded ores one day too)",
+  "authors": [
+    "ZestyBlaze"
+  ],
+  "contact": {
+    "sources": "https://github.com/ZestyBlaze/DimensionalOres"
+  },
+
+  "license": "BSD 3-Clause 'New' or 'Revised' License",
+  "icon": "assets/dimensionalores/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.zestyblaze.dimensionalores.DimensionalOres"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}
