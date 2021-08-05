@@ -1,11 +1,19 @@
 package net.zestyblaze.dimensionalores.setup;
 
+import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
+import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.BuiltinRegistries;
+import net.minecraft.util.registry.Registry;
+import net.minecraft.util.registry.RegistryKey;
+import net.minecraft.world.gen.GenerationStep;
 import net.minecraft.world.gen.YOffset;
 import net.minecraft.world.gen.decorator.RangeDecoratorConfig;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.OreFeatureConfig;
 import net.minecraft.world.gen.heightprovider.UniformHeightProvider;
+import net.zestyblaze.dimensionalores.DimensionalOres;
 
 public class NetherOreGeneration {
 
@@ -85,11 +93,51 @@ public class NetherOreGeneration {
             .configure(new OreFeatureConfig(
                     OreFeatureConfig.Rules.BASE_STONE_NETHER,
                     NetherOres.NETHER_EMERALD.getDefaultState(),
-                    2
+                    3
             ))
             .range(new RangeDecoratorConfig(
                     UniformHeightProvider.create(YOffset.fixed(4), YOffset.fixed(31))
             ))
             .spreadHorizontally()
             .repeat(10);
+
+
+    public static void generateOres() {
+        {
+            RegistryKey<ConfiguredFeature<?, ?>> netherCoalOre = RegistryKey.of(Registry.CONFIGURED_FEATURE_KEY,
+                    new Identifier(DimensionalOres.MOD_ID, "nether_coal_ore"));
+            Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, netherCoalOre.getValue(), NETHER_COAL_ORE);
+            BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(), GenerationStep.Feature.UNDERGROUND_ORES, netherCoalOre);
+
+            RegistryKey<ConfiguredFeature<?, ?>> netherIronOre = RegistryKey.of(Registry.CONFIGURED_FEATURE_KEY,
+                    new Identifier(DimensionalOres.MOD_ID, "nether_iron_ore"));
+            Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, netherIronOre.getValue(), NETHER_IRON_ORE);
+            BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(), GenerationStep.Feature.UNDERGROUND_ORES, netherIronOre);
+
+            RegistryKey<ConfiguredFeature<?, ?>> netherCopperOre = RegistryKey.of(Registry.CONFIGURED_FEATURE_KEY,
+                    new Identifier(DimensionalOres.MOD_ID, "nether_copper_ore"));
+            Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, netherCopperOre.getValue(), NETHER_COPPER_ORE);
+            BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(), GenerationStep.Feature.UNDERGROUND_ORES, netherCopperOre);
+
+            RegistryKey<ConfiguredFeature<?, ?>> netherLapisOre = RegistryKey.of(Registry.CONFIGURED_FEATURE_KEY,
+                    new Identifier(DimensionalOres.MOD_ID, "nether_lapis_ore"));
+            Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, netherLapisOre.getValue(), NETHER_LAPIS_ORE);
+            BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(), GenerationStep.Feature.UNDERGROUND_ORES, netherLapisOre);
+
+            RegistryKey<ConfiguredFeature<?, ?>> netherRedstoneOre = RegistryKey.of(Registry.CONFIGURED_FEATURE_KEY,
+                    new Identifier(DimensionalOres.MOD_ID, "nether_redstone_ore"));
+            Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, netherRedstoneOre.getValue(), NETHER_REDSTONE_ORE);
+            BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(), GenerationStep.Feature.UNDERGROUND_ORES, netherRedstoneOre);
+
+            RegistryKey<ConfiguredFeature<?, ?>> netherDiamondOre = RegistryKey.of(Registry.CONFIGURED_FEATURE_KEY,
+                    new Identifier(DimensionalOres.MOD_ID, "nether_diamond_ore"));
+            Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, netherDiamondOre.getValue(), NETHER_DIAMOND_ORE);
+            BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(), GenerationStep.Feature.UNDERGROUND_ORES, netherDiamondOre);
+
+            RegistryKey<ConfiguredFeature<?, ?>> netherEmeraldOre = RegistryKey.of(Registry.CONFIGURED_FEATURE_KEY,
+                    new Identifier(DimensionalOres.MOD_ID, "nether_emerald_ore"));
+            Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, netherEmeraldOre.getValue(), NETHER_EMERALD_ORE);
+            BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(), GenerationStep.Feature.UNDERGROUND_ORES, netherEmeraldOre);
+        }
+    }
 }
