@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "dimensionalores",
+  "id": "dimores",
   "version": "1.0.0",
 
   "name": "DimensionalOres",
@@ -13,16 +13,16 @@
   },
 
   "license": "BSD 3-Clause 'New' or 'Revised' License",
-  "icon": "assets/dimensionalores/icon.png",
+  "icon": "assets/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.zestyblaze.dimensionalores.DimensionalOres"
+      "net.zestyblaze.dimores.DimOres"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "dimores.mixins.json"
   ],
 
   "depends": {

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "dimores:end_quartz"
+  },
+  "result": "minecraft:quartz",
+  "experience": 0.2,
+  "cookingtime": 100
+}

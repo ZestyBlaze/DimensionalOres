@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.zestyblaze.dimores.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [
+    "DimMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
