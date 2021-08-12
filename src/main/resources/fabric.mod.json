@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "dimores",
-  "version": "1.0.0",
+  "version": "1.0.1",
 
   "name": "DimensionalOres",
   "description": "A small simple mod that adds the vanilla ores to the Nether and the End! (Maybe some modded ores one day too)",
@@ -21,9 +21,6 @@
       "net.zestyblaze.dimores.DimOres"
     ]
   },
-  "mixins": [
-    "dimores.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.11.3",
