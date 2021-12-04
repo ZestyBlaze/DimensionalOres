@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "dimores:quartz_ore",
+    "dimores:nether_coal_ore",
+    "dimores:nether_copper_ore",
+    "dimores:nether_iron_ore",
+    "dimores:nether_lapis_ore",
+    "dimores:nether_redstone_ore",
+    "dimores:nether_diamond_ore",
+    "dimores:nether_emerald_ore",
+    "dimores:end_coal_ore",
+    "dimores:end_copper_ore",
+    "dimores:end_iron_ore",
+    "dimores:end_lapis_ore",
+    "dimores:end_redstone_ore",
+    "dimores:end_diamond_ore",
+    "dimores:end_emerald_ore",
+    "dimores:end_quartz_ore"
+  ]
+}
