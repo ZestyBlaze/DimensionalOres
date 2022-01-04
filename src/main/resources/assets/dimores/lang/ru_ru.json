@@ -1,0 +1,23 @@
+{
+ "block.dimores.quartz_ore": "Кварцевая руда",
+
+ "block.dimores.nether_coal": "Незерская угольная руда",
+ "block.dimores.nether_copper": "Незерская медная руда",
+ "block.dimores.nether_iron": "Незерская железная руда",
+ "block.dimores.nether_lapis": "Незерская лазуритовая руда",
+ "block.dimores.nether_redstone": "Незерская редстоун руда",
+ "block.dimores.nether_diamond": "Незерская алмазная руда",
+ "block.dimores.nether_emerald": "Незерская изумрудная руда",
+
+ "block.dimores.end_coal": "Угольная руда края",
+ "block.dimores.end_copper": "Медная руда края",
+ "block.dimores.end_iron": "Железная руда края",
+ "block.dimores.end_lapis": "Лазуритовая руда края",
+ "block.dimores.end_redstone": "Редстоун руда края",
+ "block.dimores.end_gold": "Золотая руда края",
+ "block.dimores.end_quartz":  "Кварцевая руда края",
+ "block.dimores.end_diamond": "Алмазная руда края",
+ "block.dimores.end_emerald": "Изумрудная руда края",
+
+ "itemGroup.dimores.main_tab": "DimensionalOres"
+}
