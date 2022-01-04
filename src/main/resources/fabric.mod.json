@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "dimores",
-  "version": "1.0.1",
+  "version": "1.0.2",
 
   "name": "DimensionalOres",
   "description": "A small simple mod that adds the vanilla ores to the Nether and the End! (Maybe some modded ores one day too)",
@@ -9,12 +9,10 @@
     "ZestyBlaze"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/dimensionalores",
-    "sources": "https://github.com/ZestyBlaze/DimensionalOres",
-    "issues": "https://github.com/ZestyBlaze/DimensionalOres/issues"
+    "sources": "https://github.com/ZestyBlaze/DimensionalOres"
   },
 
-  "license": "BSD 3-Clause 'New' or 'Revised' License",
+  "license": "MIT License",
   "icon": "assets/icon.png",
 
   "environment": "*",
@@ -25,9 +23,9 @@
   },
 
   "depends": {
-    "fabricloader": ">=0.11.3",
+    "fabricloader": ">=0.12.12",
     "fabric": "*",
-    "minecraft": "1.17.x",
-    "java": ">=16"
+    "minecraft": "1.18.x",
+    "java": ">=17"
   }
 }

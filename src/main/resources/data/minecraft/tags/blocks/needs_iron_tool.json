@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "dimores:nether_redstone_ore",
+    "dimores:nether_diamond_ore",
+    "dimores:nether_emerald_ore",
+    "dimores:end_redstone_ore",
+    "dimores:end_diamond_ore",
+    "dimores:end_emerald_ore"
+  ]
+}

@@ -1,23 +1,19 @@
 {
  "block.dimores.quartz_ore": "Quartz Ore",
-
- "block.dimores.nether_coal": "Nether Coal Ore",
- "block.dimores.nether_copper": "Nether Copper Ore",
- "block.dimores.nether_iron": "Nether Iron Ore",
- "block.dimores.nether_lapis": "Nether Lapis Ore",
- "block.dimores.nether_redstone": "Nether Redstone Ore",
- "block.dimores.nether_diamond": "Nether Diamond Ore",
- "block.dimores.nether_emerald": "Nether Emerald Ore",
-
- "block.dimores.end_coal": "End Coal Ore",
- "block.dimores.end_copper": "End Copper Ore",
- "block.dimores.end_iron": "End Iron Ore",
- "block.dimores.end_lapis": "End Lapis Ore",
- "block.dimores.end_redstone": "End Redstone Ore",
- "block.dimores.end_gold": "End Gold Ore",
- "block.dimores.end_quartz":  "End Quartz Ore",
- "block.dimores.end_diamond": "End Diamond Ore",
- "block.dimores.end_emerald": "End Emerald Ore",
-
- "itemGroup.dimores.main_tab": "DimensionalOres"
+ "block.dimores.nether_coal_ore": "Nether Coal Ore",
+ "block.dimores.nether_copper_ore": "Nether Copper Ore",
+ "block.dimores.nether_iron_ore": "Nether Iron Ore",
+ "block.dimores.nether_lapis_ore": "Nether Lapis Ore",
+ "block.dimores.nether_redstone_ore": "Nether Redstone Ore",
+ "block.dimores.nether_diamond_ore": "Nether Diamond Ore",
+ "block.dimores.nether_emerald_ore": "Nether Emerald Ore",
+ "block.dimores.end_coal_ore": "End Coal Ore",
+ "block.dimores.end_copper_ore": "End Copper Ore",
+ "block.dimores.end_iron_ore": "End Iron Ore",
+ "block.dimores.end_lapis_ore": "End Lapis Ore",
+ "block.dimores.end_redstone_ore": "End Redstone Ore",
+ "block.dimores.end_gold_ore": "End Gold Ore",
+ "block.dimores.end_diamond_ore": "End Diamond Ore",
+ "block.dimores.end_emerald_ore": "End Emerald Ore",
+ "block.dimores.end_quartz_ore":  "End Quartz Ore"
 }

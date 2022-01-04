@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "dimores:nether_coal_ore",
+    "dimores:quartz_ore",
+    "dimores:end_coal_ore",
+    "dimores:end_quartz_ore"
+  ]
+}
