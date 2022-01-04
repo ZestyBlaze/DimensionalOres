@@ -9,7 +9,9 @@
     "ZestyBlaze"
   ],
   "contact": {
-    "sources": "https://github.com/ZestyBlaze/DimensionalOres"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/dimensionalores",
+    "sources": "https://github.com/ZestyBlaze/DimensionalOres",
+    "issues": "https://github.com/ZestyBlaze/DimensionalOres/issues"
   },
 
   "license": "BSD 3-Clause 'New' or 'Revised' License",
