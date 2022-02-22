@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "dimores:end_emerald"
+    "item": "dimores:end_emerald_ore"
   },
   "result": "minecraft:emerald",
   "experience": 1.0,

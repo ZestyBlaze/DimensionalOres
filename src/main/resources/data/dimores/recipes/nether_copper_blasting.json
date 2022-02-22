@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "item": "dimores:nether_copper"
+    "item": "dimores:nether_copper_ore"
   },
   "result": "minecraft:copper_ingot",
   "experience": 0.7,

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "item": "dimores:end_redstone"
+    "item": "dimores:end_redstone_ore"
   },
   "result": "minecraft:redstone",
   "experience": 0.7,

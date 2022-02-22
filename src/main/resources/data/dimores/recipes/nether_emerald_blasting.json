@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "item": "dimores:nether_emerald"
+    "item": "dimores:nether_emerald_ore"
   },
   "result": "minecraft:emerald",
   "experience": 1.0,

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "dimores:nether_diamond"
+    "item": "dimores:nether_diamond_ore"
   },
   "result": "minecraft:diamond",
   "experience": 1.0,
